@@ -1,0 +1,30 @@
+{
+  "name": "redux-example",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-15.4": "^1.0.5",
+    "react-scripts": "0.8.5",
+    "redux-mock-store": "^1.5.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "json-server": "^0.12.1",
+    "react": "^15.4.2",
+    "react-addons-test-utils": "^15.6.2",
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^5.0.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
